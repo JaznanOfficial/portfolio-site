@@ -1,5 +1,6 @@
+
 import React from "react";
-import Typical from "react-typical"
+import Typical from "react-typical";
 
 const Profile = () => {
     return (
@@ -24,8 +25,28 @@ const Profile = () => {
                     </div>
                     <div className="profile-details-rols">
                         <h1>
+                            <Typical
+                                loop={Infinity}
+                                steps={[
+                                    "Passionate Developer ❤️ ", 1000,
+                                    "Full Stack Developer 💻", 1000,
+                                    "Mern Stack Developer  👨‍💻 ", 1000,
+                                    "Strongly Front-end Developer  💪 ", 1000,
+                                    "React Developer  🌺 ", 1000,
+                                ]}
+                                wrapper="p"
+                            />
                         </h1>
+                        <span className="profile-role-tagline">knack of building applications with front and back end operations.</span>
                     </div>
+                    <div className="profile-options">
+                        <button className='btn primary-btn'>Hire Me</button>
+                        <a href="md-abdur-rahman-resume.pdf" download='md-abdur-rahman-resume.pdf'><button className='btn highlighted-btn'>Download Resume</button>
+                        </a>
+                    </div>
+                </div>
+                <div className="profile-picture">
+                
                 </div>
             </div>
         </div>

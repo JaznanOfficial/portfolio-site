@@ -20,25 +20,25 @@ const Profile = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="profile-name-details">
-                        <span className="primary-text">
+                    <div className="profile-details-name">
+                        <span className="primary-text bold">
                             Hello I'm <span className="highlighted-text"> Md Abdur Rahman </span>
                         </span>
                     </div>
-                    <div className="profile-details-rols">
+                    <div className="profile-details-roles">
                         <h1>
                             <Typical
                                 loop={Infinity}
                                 steps={[
-                                    "Passionate Developer ❤️ ",
+                                    "Passionate Developer❤️ ",
                                     1000,
-                                    "Full Stack Developer 💻",
+                                    "Full Stack Developer💻",
                                     1000,
-                                    "Mern Stack Developer  👨‍💻 ",
+                                    "Mern Stack Developer 👨‍💻 ",
                                     1000,
-                                    "Strongly Front-end Developer  💪 ",
+                                    "Front-end Developer 💪 ",
                                     1000,
-                                    "React Developer  🌺 ",
+                                    "React Developer 🌺 ",
                                     1000,
                                 ]}
                                 wrapper="p"

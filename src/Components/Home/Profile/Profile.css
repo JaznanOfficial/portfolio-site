@@ -1,0 +1,27 @@
+.body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.primary-btn {
+    color: white;
+    border: 2px solid linen;
+    font-size: 15px;
+    background-color: #1f2235;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+.primary-btn:hover {
+    color: aliceblue;
+    border: 2px solid #ff5823;
+    background-color: #1f2235;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.highlighted-btn {
+    color: white;
+    font-size: 15px;
+    background-color: #ff5823;
+    border-radius: 100px;
+    padding: 10px 20px;
+}

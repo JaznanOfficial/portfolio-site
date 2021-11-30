@@ -8,7 +8,7 @@ import Profile from "./Profile/Profile";
 const Home = () => {
     return (
         <div>
-            <Navigation></Navigation>
+            
             <Profile></Profile>
             <AboutMe></AboutMe>
             <Footer></Footer>

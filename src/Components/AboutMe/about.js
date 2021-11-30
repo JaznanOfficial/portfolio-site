@@ -1,6 +1,7 @@
 import React from 'react';
-import profile from './profile.jpg'
-import './about.css'
+import profile from './profile.jpg';
+import './about.css';
+import Typical from "react-typical";
 
 const about = () => {
     return (
@@ -13,8 +14,33 @@ const about = () => {
                     <img src={profile} alt=""/>
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Prakash and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                    <div className="text text-center">I'm <span className='highlighted-text'> Md Abdur Rahman </span> and I'm a <br /> <h1 className='text-danger text-center d-flex justify-content-center align-items-center'>
+                    <Typical
+                        loop={Infinity}
+                        steps={[
+                            "Passionate Developer",
+                            1000,
+                            "Full Stack Developer",
+                            1000,
+                            "Mern Stack Developer",
+                            1000,
+                            "Front-end Developer",
+                            1000,
+                            "React Developer",
+                            1000,
+                        ]}
+                        wrapper="p"
+                    />
+                </h1></div>
+                    <p>Hello! My name is <strong className='text-success'>Md Abdur Rahman</strong> and I am a <strong className='text-success'>junior front-end developer</strong> specializing in building React.js WebApp. I enjoy creating things that live on the internet. My interest in web development started back in 2021, I use Javascript and React.js to create high-end interactive experiences and products. <br /> <br />
+
+                    Certified by Programming Hero: <br /> (http://programming-hero.com/)(https://www.linkedin.com/company/programminghero/). <br />
+                    
+                                Skilled in Html5,Css3,Bootstrap,Tailwind,Material UI, JavaScript, ES6, React JS, React Router, Firebase. Express, Mongodb, Node js, Heroku <br />
+                            
+                                I have some experience efficiently coding websites and applications using modern HTML, CSS, JavaScript, and react. Also using other modern technologies
+                                easy-to-use, user-friendly websites and applications are a passion of mine and I am assured I might be a wonderful addition to your organization. additionally, to my content, I actively search out new technologies and keep up-to-date on business trends and advancements. I’ve attached a copy of my resume detailing my experience, at the side of links to websites and applications I’ve had the honor of acting on.
+                                </p>
                     
                 </div>
             </div>

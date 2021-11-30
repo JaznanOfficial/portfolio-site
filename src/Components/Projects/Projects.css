@@ -1,0 +1,52 @@
+.projects{
+    color:#fff;
+    background: #111;
+}
+.projects .title::before{
+    background: #fff;
+}
+.projects .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.project-div{
+    box-shadow: 5px 5px 10px aliceblue;
+}
+
+.project-card img:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+/* .services .serv-content .box-card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .box-card:hover{
+    background: crimson;
+}
+.services .serv-content .box-card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .box-card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .box-card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .box-card:hover i{
+    color: #fff;
+}
+.services .serv-content .box-card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+} */

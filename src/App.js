@@ -11,6 +11,8 @@ import Footer from "./Components/Footer/Footer";
 import Home from './Components/Home/Home';
 import Navigation from "./Components/Home/Navigation/Navigation";
 import AboutMe from "../src/Components/AboutMe/about";
+import FirstProject from "./Components/firstProject/FirstProject";
+import Porjects from "./Components/Projects/Porjects";
 
 
 function App() {
@@ -23,7 +25,8 @@ function App() {
           <Route exact path='/' element={<Home></Home>}></Route>
           <Route exact path='home' element={<Home></Home>}></Route>
           <Route exact path='about' element={<AboutMe></AboutMe>}></Route>
-          <Route exact path='contact' element={<Contact></Contact>}></Route>
+          <Route exact path='projects' element={<Porjects></Porjects>}></Route>
+          <Route exact path='first-project' element={<FirstProject></FirstProject>}></Route>
           <Route exact path='blogs' element={<Blogs></Blogs>}></Route>
         </Routes>
         <Footer></Footer>

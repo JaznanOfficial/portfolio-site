@@ -1,0 +1,52 @@
+.nav-div{
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    z-index: 1;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('./menu-bar.png') !important;
+    /* background-color: aliceblue; */
+}
+
+
+.nav-bar {
+    height: 75px !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight:600;
+    padding: 15px 15px ;
+    color: white !important;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+.navbar-link a:hover {
+    background-color: white;
+    color: #EF3931 !important;
+    border: 1px solid lightgray;
+}
+.navbar-link a:focus {
+    background-color: white;
+    color: #EF3931 !important;
+    padding: 15px 15px ;
+}

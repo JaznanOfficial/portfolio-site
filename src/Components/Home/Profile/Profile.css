@@ -118,7 +118,9 @@ transition: 1s ease-out;
 
 @media only screen and (max-width:1110px) {
     .profile-parent{
-        margin: 0 20px 100px 20px;
+        margin: 0 0px 100px 0px;
+        justify-content: center;
+        align-items: center;
     }
     .profile-picture{
         margin: 10px;
@@ -148,10 +150,41 @@ transition: 1s ease-out;
 
 
 @media only screen and (max-width:910px) {
+    .profile-parent{
+        /* flex-direction: column-reverse; */
+        margin: 0 0px 100px 0px;
+        justify-content: center;
+        align-items: center;
+    }
 .profile-picture{
     height: 200px;
     width: 200px;
     margin: 5px;
+}
+.primary-btn {
+    display: block;
+    color: white;
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+    border-radius: 100px;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-options .highlighted-btn {
+    color: white;
+    font-size: 10px;
+    background-color: #ff5823;
+    border-radius: 100px;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0 0 0px !important;
+}
+.btn-div{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
 }
 }
 

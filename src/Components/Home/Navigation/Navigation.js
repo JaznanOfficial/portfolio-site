@@ -41,9 +41,9 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto d-flex align-items-center justify-content-center navbar-link">
                         <Nav.Link href="#home" className='text-light'>Home</Nav.Link>
-                        <Nav.Link href="#link" className='text-light'>Link</Nav.Link>
-                        <Nav.Link href="#link" className='text-light'>Link</Nav.Link>
-                        <Nav.Link href="#link" className='text-light'>Link</Nav.Link>
+                        <Nav.Link href="#projects" className='text-light'>Projects</Nav.Link>
+                        <Nav.Link href="#about" className='text-light'>About Me</Nav.Link>
+                        <Nav.Link href="#contact" className='text-light'>Contact Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

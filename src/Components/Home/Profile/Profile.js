@@ -7,8 +7,8 @@ const Profile = () => {
         <div className="profile-container">
             <div className="profile-parent">
                 <div className="profile-details">
-                    <div className="colz">
-                        <div className="colz-icon">
+                    <div className="social-div">
+                        <div className="social-icon">
                             <a href="https://www.facebook.com/mdabdurrahman30/">
                                 <i className="fa fa-facebook-square"></i>
                             </a>
@@ -21,7 +21,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className="profile-details-name">
-                        <span className="primary-text bold">
+                        <span className="primary-text">
                             Hello I'm <span className="highlighted-text"> Md Abdur Rahman </span>
                         </span>
                     </div>

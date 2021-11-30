@@ -5,17 +5,16 @@
 .projects .title::before{
     background: #fff;
 }
-.projects .title::after
-{
+.projects .title::after{
     background: #111;
-    content: "what i make awesome";
+    content: "- what I make Awesome -";
 }
 .project-div{
     box-shadow: 5px 5px 10px aliceblue;
 }
 
 .project-card img:hover{
-    transform: scale(1.07);
+transform: scale(1.07);
     transition: 1s ease-out;
 }
 

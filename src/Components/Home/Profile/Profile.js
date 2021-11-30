@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import './Profile.css'
+import "./Profile.css";
 
 const Profile = () => {
     return (
@@ -48,11 +48,18 @@ const Profile = () => {
                             knack of building applications with front and back end operations.
                         </span>
                     </div>
-                    <div className="profile-options">
-                        <button className="btn primary-btn">Hire Me</button>
-                        <a href="md-abdur-rahman-resume.pdf" download="md-abdur-rahman-resume.pdf">
-                            <button className="btn highlighted-btn">Download Resume</button>
-                        </a>
+                    <div className="profile-options d-lg-flex flex-row align-items-center justify-content-center btn-div">
+                        <div>
+                            <button className="btn primary-btn">Hire Me</button>
+                        </div>
+                        <div>
+                            <a
+                                href="md-abdur-rahman-resume.pdf"
+                                download="md-abdur-rahman-resume.pdf"
+                            >
+                                <button className="btn highlighted-btn">Download Resume</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="profile-picture">

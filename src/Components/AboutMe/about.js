@@ -34,7 +34,7 @@ const about = () => {
                 </h1></div>
                     <p>Hello! My name is <strong className='text-success'>Md Abdur Rahman.</strong> a <strong className='text-success'>junior front-end developer</strong> specializing in building React.js WebApp. I enjoy creating things that live on the internet. My interest in web development started back in 2021, I use Javascript and React.js to create high-end interactive experiences and products. <br /> <br />
 
-                    Certified by  <a href="http://programming-hero.com/">Programming Hero:</a> <br />  <br />
+                    Certified by  <a href="http://programming-hero.com/">Programming Hero</a> and <a href="https://www.sololearn.com/">Sololearn</a> <br />  <br />
                     
                                 Skilled in Html5,Css3,Bootstrap,Tailwind,Material UI, JavaScript, ES6, React JS, React Router, Firebase. Express, Mongodb, Node js, Heroku <br />
                             

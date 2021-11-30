@@ -14,7 +14,7 @@ const about = () => {
                     <img src={profile} alt=""/>
                 </div>
                 <div class="column right">
-                    <div className="text text-center">I'm <span className='highlighted-text'> Md Abdur Rahman </span> and I'm a <br /> <h1 className='text-danger text-center d-flex justify-content-center align-items-center'>
+                    <div className="text text-center">I'm <span className='highlighted-text'> Md Abdur Rahman. </span> <br /> a  <h1 className='text-danger text-center d-flex justify-content-center align-items-center'>
                     <Typical
                         loop={Infinity}
                         steps={[
@@ -32,7 +32,7 @@ const about = () => {
                         wrapper="p"
                     />
                 </h1></div>
-                    <p>Hello! My name is <strong className='text-success'>Md Abdur Rahman</strong> and I am a <strong className='text-success'>junior front-end developer</strong> specializing in building React.js WebApp. I enjoy creating things that live on the internet. My interest in web development started back in 2021, I use Javascript and React.js to create high-end interactive experiences and products. <br /> <br />
+                    <p>Hello! My name is <strong className='text-success'>Md Abdur Rahman.</strong> a <strong className='text-success'>junior front-end developer</strong> specializing in building React.js WebApp. I enjoy creating things that live on the internet. My interest in web development started back in 2021, I use Javascript and React.js to create high-end interactive experiences and products. <br /> <br />
 
                     Certified by Programming Hero: <br /> (http://programming-hero.com/)(https://www.linkedin.com/company/programminghero/). <br />
                     

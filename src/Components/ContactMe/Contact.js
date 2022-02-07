@@ -9,6 +9,8 @@ const Contact = () => {
 
     const sendMail = (e) => {
         e.preventDefault();
+        e.target.reset()
+        
 
         emailjs.sendForm('service_mhon7tp', 'template_dr1nm3h', form.current, 'user_1WP45SDevcirhN4i48N1M')
       .then((result) => {
@@ -18,6 +20,7 @@ const Contact = () => {
             text: "Your message successfully sent!",
             icon: "success",
           });
+          
       }, (error) => {
           console.log(error.text);
           swal({

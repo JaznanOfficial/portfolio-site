@@ -1,7 +1,34 @@
 import React from 'react';
 import './Contact.css'
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+import swal from 'sweetalert'
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendMail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_mhon7tp', 'template_dr1nm3h', form.current, 'user_1WP45SDevcirhN4i48N1M')
+      .then((result) => {
+          console.log(result.text);
+          swal({
+            title: "Good job!",
+            text: "Your message successfully sent!",
+            icon: "success",
+          });
+      }, (error) => {
+          console.log(error.text);
+          swal({
+            title: "Oops!",
+            text: `{error.text}`,
+            icon: "warning",
+          });
+      });
+    }
+
+
     return (
         <div>
         <section class="contact" id="contact">
@@ -37,20 +64,20 @@ const Contact = () => {
                 </div>
                 <div class="column right w-100 mx-3">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="#" onSubmit={sendMail} ref={form}>
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required/>
+                                <input type="text" placeholder="Name" name='name' required/>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required/>
+                                <input type="email" placeholder="Email" name='email' required/>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required/>
+                            <input type="text" placeholder="Subject" name='subject' required/>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." name='message' required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>

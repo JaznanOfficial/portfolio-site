@@ -5,10 +5,11 @@
 .projects .title::before{
     background: #fff;
 }
-.projects .title::after{
+/* .projects .title::after{
     background: #111;
     content: "- what I make Awesome -";
-}
+    margin-top: 300px;
+} */
 .project-div{
     box-shadow: 5px 5px 10px aliceblue;
 }

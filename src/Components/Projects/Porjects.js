@@ -12,6 +12,7 @@ const Porjects = () => {
             <section class="projects" id="projects">
                 <div class="max-width">
                     <h2 class="title">My Projects</h2>
+                    <h4 className="text-danger">- what I make Awesome -</h4>
                     <Row xs={1} md={3} className="g-2 justify-content-center align-items-center">
                         <div className="card project-card m-5" style={{ width: "18rem" }}>
                             

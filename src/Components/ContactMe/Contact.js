@@ -9,17 +9,17 @@ const Contact = () => {
 
     const sendMail = (e) => {
         e.preventDefault();
-        e.target.reset()
         
-
+        
         emailjs.sendForm('service_mhon7tp', 'template_dr1nm3h', form.current, 'user_1WP45SDevcirhN4i48N1M')
-      .then((result) => {
-          console.log(result.text);
-          swal({
-            title: "Good job!",
-            text: "Your message successfully sent!",
-            icon: "success",
-          });
+        .then((result) => {
+            console.log(result.text);
+            swal({
+                title: "Good job!",
+                text: "Your message successfully sent!",
+                icon: "success",
+            });
+            e.target.reset()
           
       }, (error) => {
           console.log(error.text);
@@ -28,6 +28,7 @@ const Contact = () => {
             text: `{error.text}`,
             icon: "warning",
           });
+          e.target.reset()
       });
     }
 
